@@ -4,3 +4,6 @@ Push Image --> ACR --> Webhook --> Function(HTTPTrigger) --> Webhook --> Slack N
 
 ### Python Package
 - requests==2.31.0
+
+### Azure Function
+- Python, Linux Type
