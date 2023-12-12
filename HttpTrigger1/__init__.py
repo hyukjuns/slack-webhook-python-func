@@ -1,7 +1,7 @@
+import json
 import logging
 import requests
 import azure.functions as func
-import json
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
@@ -29,7 +29,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     container_registry = event_request['host']
 
     # request webhook to slack
-    slack_webhook_url = "https://hooks.slack.com/services/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"
+    slack_webhook_url = ""
     slack_webhook_headers = {'Content-Type': 'application/json'}
     payload = \
     {
